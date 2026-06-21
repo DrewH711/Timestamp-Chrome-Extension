@@ -19,7 +19,7 @@ document.getElementById("submit_button").addEventListener("click", () => {
   let minutes = date.getMinutes();
   let initials = document.getElementById("initials").value;
 
-  if(getSavedInitials() != initials){
+  if(getSavedInitials() != initials && gtSavedInitials()!=""){
     document.cookie = `initials=${initials}`;
   }
 
