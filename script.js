@@ -8,7 +8,7 @@ var initials = "No initials entered";
 
 var message = `${hours}:${minutes} ${date.getMonth()}/${date.getDate()} - ${initials} `
 
-document.getElementById("initials").addEventListener("click", () => {
+document.getElementById("submit_button").addEventListener("click", () => {
   initials = document.getElementById("initials").value;
   alert(message);
 });
