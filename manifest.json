@@ -1,0 +1,11 @@
+{
+ "name": "DateTimeInitials",
+ "version": "1.0",
+ "description": "Automatically paste in the date, time, and your initals with the keyboard shortcut'ctrl+shift+f'.",
+ "manifest_version": 3,
+ "action": {
+   "default_popup": "index.html",
+   "default_title": "DateTimeInitials"
+ },
+ "permissions": ["activeTab"]
+}
