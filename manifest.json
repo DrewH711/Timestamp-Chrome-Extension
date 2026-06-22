@@ -6,6 +6,6 @@
  "action": {
    "default_popup": "index.html",
    "default_title": "DateTimeInitials"
- },
- "permissions": ["activeTab"]
+ }, 
+ "permissions": ["activeTab", "scripting"]
 }
